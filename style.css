@@ -1,0 +1,56 @@
+body{
+    height: 90vh;
+    background-color: #dddddd;
+    /*
+    #f1f1f1
+    */
+}
+.controllerbuttons{
+    padding: 3px;
+    padding-top: 20px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: start;
+}
+#videoElement {
+    width: 100%;
+    max-width: 800px;
+    border-radius: 12px;
+  }
+button{
+    transition: all 0.5s;
+    /*
+    background-color: #4db8ff;
+    */
+    background-color: #f8e8d5;
+    padding: 10px;
+    color: #fff;
+    border: none;
+    border-radius: 6px;
+}
+input{
+    padding: 10px;
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    width: 50%;
+    display: inline-block;
+    background-color: #9dd3ff;
+    margin-left: 5px;
+    accent-color: #ff0000;
+}
+
+button:hover{
+    cursor: pointer;
+    background-color: #2599e7;
+}
+
+.container{
+    max-width: 60%;
+    margin: 30px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-wrap: wrap;
+}

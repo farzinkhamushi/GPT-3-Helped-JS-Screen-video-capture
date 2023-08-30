@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Screen Recorder</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js"></script>
+</head>
+<body>
+    <div class="container" id="container">
+        <video id="videoElement" controls autoplay></video>
+        <div class="controllerbuttons">
+            <div style="display: flex;align-items: center;">
+                <button id="recordButton">Record Now</button>
+                <input type="text" name="" id="outputbutton" placeholder="اسم ویدیو رو اینجا بنویس">.mp4
+            </div>
+            <div>
+                <button id="pauseButton" disabled>Pause</button>
+                <button id="stopButton" disabled>Stop</button>
+                <button id="downloadButton" disabled>Download Video</button>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
